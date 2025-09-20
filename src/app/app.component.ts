@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-quickstart';
+  title = 'brian-conn-portfolio';
   projects = [
     {
       title: 'Whispering Tavern',
@@ -16,7 +16,7 @@ export class AppComponent {
       link: 'https://pets485.itch.io/whispering-tavern',
       featured: true,
       images: [
-        'assets/workers-2036185_1280.jpg',
+        'assets/tavernNew.jpg',
         'assets/handyman-1020156_1280.jpg',
         'assets/maurer-1020143_1280.jpg'
       ]
