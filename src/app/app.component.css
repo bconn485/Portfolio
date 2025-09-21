@@ -235,6 +235,8 @@
   box-shadow: 0 0 20px rgba(0, 173, 181, 0.3);
   text-align: center;
   position: relative;
+  max-height: 90vh;
+  overflow-y: auto; 
 }
   .modal-content .button-group {
     display: flex;

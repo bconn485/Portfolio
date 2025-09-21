@@ -40,9 +40,7 @@ export class AppComponent {
       tools: 'Unity, Unreal, C#, C++ Jira, Aseprite',
       link: 'https://huskygames.com/',
       images: [
-        'assets/HuskyGamesLogo.png',
-        'assets/WhenWeFell.png',
-        'assets/RunToTheRescue.png'
+        'assets/HuskyGamesLogo.png'
       ]
     }
   ];
