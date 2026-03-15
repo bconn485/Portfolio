@@ -9,16 +9,16 @@ export class AppComponent {
   title = 'brian-conn-portfolio';
   projects = [
     {
-      title: 'Whispering Tavern',
-      description: 'Unreal project using Ollama to create a dialog based puzzle game.',
-      details: 'A roguelike puzzle set in a tavern where NPCs adapt their responses to player choices and tone. Combining an LLM with a structured puzzle framework to create a replayble mystery (hopefully). Check out the dev log linked below for more information, updates, or to see me struggle with Unreal.',
-      tools: 'Unreal, C++, Ollama, Blender',
-      link: 'https://pets485.itch.io/whispering-tavern',
+      title: 'Tip & Tumble',
+      description: '3D puzzle prototype exploring grid-based movement and modular shape systems.',
+      details: 'A short puzzle game where a polyomino piece rolls across a 3D tile grid. The project focuses on building scalable gameplay systems, including pivot-based movement, dynamic shape transformations, and puzzle mechanics like hidden goals and shape-changing pads. Built as a short prototype to explore designing maintainable systems in a 3D environment.',
+      tools: 'Unity 3D, C#',
+      link: 'https://pets485.itch.io/tip-tumble',
       featured: true,
       images: [
-        'assets/tavernNew.jpg',
-        'assets/handyman-1020156_1280.jpg',
-        'assets/maurer-1020143_1280.jpg'
+        'assets/tt1.png',
+        'assets/tt2.png',
+        'assets/tt3.png'
       ]
     },
     {
