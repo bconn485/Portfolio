@@ -172,6 +172,19 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+.badge-wip {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: linear-gradient(90deg, #6e7aff, #a259ff);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
   .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 14px rgba(0, 173, 181, 0.3);
@@ -282,6 +295,16 @@
     height: 44px;
     box-sizing: border-box;
     cursor: pointer;
+  }
+
+  .button-row a.btn-postmortem {
+    background: linear-gradient(90deg, #ff6b35, #e8431a);
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.45);
+  }
+
+  .button-row a.btn-postmortem:hover {
+    background: linear-gradient(90deg, #ff7f4f, #ff5530);
+    box-shadow: 0 0 16px rgba(255, 107, 53, 0.7);
   }
 
 .modal-image-carousel {

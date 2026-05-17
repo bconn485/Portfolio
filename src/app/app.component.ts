@@ -9,11 +9,25 @@ export class AppComponent {
   title = 'brian-conn-portfolio';
   projects = [
     {
+      title: 'Formation Break',
+      description: 'A lightweight RTS designed for the constraints of the Game Boy Advance, centered around tactical squad formations and fast, readable combat.',
+      details: 'A lightweight tactical RTS built for the Game Boy Advance and designed around real hardware limitations. The project focuses on squad-based tactics, formation-driven combat, and deterministic systems architecture with future link cable multiplayer support in mind. Players command infantry squads, capture objectives, and adapt formations during fast-paced battlefield engagements.',
+      tools: 'Butano, Tiled, Aseprite, C++',
+      link: 'https://pets485.itch.io/tip-tumble',
+      featured: true,
+      wip: true,
+      images: [
+        'assets/game1.png',
+        'assets/levels.png',
+      ]
+    },
+    {
       title: 'Tip & Tumble',
       description: '3D puzzle prototype exploring grid-based movement and modular shape systems.',
       details: 'A short puzzle game where a polyomino piece rolls across a 3D tile grid. The project focuses on building scalable gameplay systems, including pivot-based movement, dynamic shape transformations, and puzzle mechanics like hidden goals and shape-changing pads. Built as a short prototype to explore designing maintainable systems in a 3D environment.',
       tools: 'Unity 3D, C#',
       link: 'https://pets485.itch.io/tip-tumble',
+      postmortemLink: 'https://pets485.itch.io/tip-tumble/devlog/1526223/tip-tumble-postmortem',
       featured: true,
       images: [
         'assets/tt1.png',
