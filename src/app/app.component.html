@@ -129,7 +129,7 @@
 <section id="projects" class="section projects">
   <h2>Projects</h2>
   <div class="card-grid">
-    <div class="card" *ngFor="let project of projects" (click)="openProject(project)">
+    <div class="card" [class.card-wip]="project.wip" *ngFor="let project of projects" (click)="project.wip ? null : openProject(project)">
       <span class="badge-featured" *ngIf="project.featured">★ Featured</span>
       <span class="badge-wip" *ngIf="project.wip">⚙ WIP</span>
       <h3>{{ project.title }}</h3>
