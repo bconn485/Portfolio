@@ -129,7 +129,7 @@
 <section id="projects" class="section projects">
   <h2>Projects</h2>
   <div class="card-grid">
-    <div class="card" [class.card-wip]="project.wip" *ngFor="let project of projects" (click)="project.wip ? null : openProject(project)">
+    <div class="card" *ngFor="let project of projects" (click)="openProject(project)">
       <span class="badge-featured" *ngIf="project.featured">★ Featured</span>
       <span class="badge-wip" *ngIf="project.wip">⚙ WIP</span>
       <h3>{{ project.title }}</h3>
@@ -156,7 +156,8 @@
     <p *ngIf="selectedProject.tools"><strong>Tools:</strong> {{ selectedProject.tools }}</p>
     <div class="button-row">
       <button class="modal-close" (click)="closeProject()">Close</button>
-      <a *ngIf="selectedProject.link" [href]="selectedProject.link" target="_blank">View Project</a>
+      <a *ngIf="selectedProject.link && !selectedProject.wip" [href]="selectedProject.link" target="_blank">View Project</a>
+      <span *ngIf="selectedProject.link && selectedProject.wip" class="btn-disabled">View Project</span>
       <a *ngIf="selectedProject.postmortemLink" [href]="selectedProject.postmortemLink" target="_blank" class="btn-postmortem">📋 Read Postmortem</a>
     </div>
   </div>

@@ -190,16 +190,6 @@
     box-shadow: 0 6px 14px rgba(0, 173, 181, 0.3);
   }
 
-.card.card-wip {
-  opacity: 0.5;
-  cursor: default;
-  filter: grayscale(40%);
-}
-
-.card.card-wip:hover {
-  transform: none;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
 
 .card h3 {
   margin-top: 0;
@@ -306,6 +296,22 @@
     height: 44px;
     box-sizing: border-box;
     cursor: pointer;
+  }
+
+  .button-row .btn-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: #888;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    height: 44px;
+    box-sizing: border-box;
+    cursor: not-allowed;
   }
 
   .button-row a.btn-postmortem {
