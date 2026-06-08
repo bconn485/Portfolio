@@ -13,7 +13,7 @@ export class AppComponent {
       description: 'A lightweight RTS designed for the constraints of the Game Boy Advance, centered around tactical squad formations and fast, readable combat.',
       details: 'A lightweight tactical RTS built for the Game Boy Advance and designed around real hardware limitations. The project focuses on squad-based tactics, formation-driven combat, and deterministic systems architecture with future link cable multiplayer support in mind. Players command infantry squads, capture objectives, and adapt formations during fast-paced battlefield engagements.',
       tools: 'Butano, Tiled, Aseprite, C++',
-      link: 'https://pets485.itch.io/tip-tumble',
+      link: 'https://pets485.itch.io/formationbreak',
       featured: true,
       wip: true,
       images: [
