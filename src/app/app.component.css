@@ -298,23 +298,7 @@
     cursor: pointer;
   }
 
-  .button-row .btn-disabled {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 0.5rem 1rem;
-    background-color: #444;
-    color: #888;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 6px;
-    height: 44px;
-    box-sizing: border-box;
-    cursor: not-allowed;
-  }
-
-  .button-row a.btn-postmortem {
+.button-row a.btn-postmortem {
     background: linear-gradient(90deg, #ff6b35, #e8431a);
     box-shadow: 0 0 10px rgba(255, 107, 53, 0.45);
   }

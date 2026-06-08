@@ -156,8 +156,7 @@
     <p *ngIf="selectedProject.tools"><strong>Tools:</strong> {{ selectedProject.tools }}</p>
     <div class="button-row">
       <button class="modal-close" (click)="closeProject()">Close</button>
-      <a *ngIf="selectedProject.link && !selectedProject.wip" [href]="selectedProject.link" target="_blank">View Project</a>
-      <span *ngIf="selectedProject.link && selectedProject.wip" class="btn-disabled">View Project</span>
+      <a *ngIf="selectedProject.link" [href]="selectedProject.link" target="_blank">View Project</a>
       <a *ngIf="selectedProject.postmortemLink" [href]="selectedProject.postmortemLink" target="_blank" class="btn-postmortem">📋 Read Postmortem</a>
     </div>
   </div>
